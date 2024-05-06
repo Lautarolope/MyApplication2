@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+
+    <string name="app_name">My Application</string>
+    <string name="Ingresar">LOGIN</string>
+    <string name="Contraseña">PASSWORD</string>
+    <string name="Usuario">USERNAME</string>
+    <string name="Bienvenidos">WELCOME</string>
+
+    //segunda activity
+
+    <string name="ACERCA">About</string>
+    <string name="SALIR">Exit</string>
+    <string name="GMAIL">Gmail</string>
+    <string name="TELEFONO">Phone</string>
+    <string name="DESTAPA_FELICIDAD">Unwrap Happiness</string>
+    <string name="PAGINA_OFICIAL">Official Website</string>
+
+    //Tercer activity
+
+    <string name="CELULAR">Cellphone</string>
+    <string name="VOLVER">Back</string>
+    <string name="DATOS">Programmer Information</string>
+    <string name="NOMBRE">Name: Cora Lopez Lautaro</string>
+    <string name="EDAD">Age: 24</string>
+    <string name="TITULO_EN_PROCESO">Degree: In Progress (Student at ITES)</string>
+    <string name="CONTACTO">Contact</string>
+
+
+
+
+</resources>
