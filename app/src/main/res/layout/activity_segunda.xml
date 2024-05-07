@@ -7,6 +7,18 @@
         android:id="@+id/main"
         tools:context=".SegundaActivity">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cocacola"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118" />
+
     <Button
         android:id="@+id/btnsiguiente"
         android:layout_width="wrap_content"
@@ -36,53 +48,48 @@
         android:id="@+id/btngmail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="80dp"
+        android:layout_marginBottom="96dp"
         android:text="@string/GMAIL"
         app:layout_constraintBottom_toTopOf="@+id/btnsiguiente"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintHorizontal_bias="0.839"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/btntelefono"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="8dp"
+        android:layout_marginBottom="36dp"
         android:text="@string/TELEFONO"
         app:layout_constraintBottom_toTopOf="@+id/btngmail"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.915"
+        app:layout_constraintHorizontal_bias="0.885"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="204dp"
-        app:layout_constraintBottom_toTopOf="@+id/btntelefono"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/descargar" />
 
     <TextView
         android:id="@+id/textView9"
         android:layout_width="175dp"
         android:layout_height="93dp"
-        android:layout_marginStart="36dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="49dp"
         android:text="@string/DESTAPA_FELICIDAD"
         android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnpagina"
         android:layout_width="98dp"
         android:layout_height="72dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="76dp"
         android:text="@string/PAGINA_OFICIAL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toEndOf="@+id/textView9"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
